@@ -29,4 +29,10 @@ The Azure eco-system is huge, however the components that we use most commonly a
 Less commonly used, but important:
 
 * CosmosDB (Advanced)
-  
+
+### **Version Control**
+
+Version control should be utilised on *all* client projects. The exact tooling may vary, but typically it is:
+
+* GitHub
+* Azure DevOps Repos

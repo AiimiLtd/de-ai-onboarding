@@ -1,8 +1,11 @@
+![aiimi logo](./images/aiimiLogo.png)
 # **Data &amp; AI Engineering onboarding pack**
+# **TEMP PUBLIC**
 
 [In Progress 04/07/2024]
 
 ### Welcome to aiimi!
+
 
 This is your onboarding pack. It is *not* intended to teach you to become a data engineer. Rather, it aims to quickly acclimate you to the aiimi landscape and help you to understand our commonly used approaches and technologies.
 
@@ -23,6 +26,7 @@ Onboarding curriculum:
     * Customer focus
     * Professionalism - Optics are important
     * Presentation skills
+    * Scrum & Agile working
 
 * **03 Roles & responsibilities of a consultant data engineer**: 
     * Understanding client needs

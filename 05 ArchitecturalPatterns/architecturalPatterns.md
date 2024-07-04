@@ -1,1 +1,1 @@
-
+## **Common Architectural Patterns**

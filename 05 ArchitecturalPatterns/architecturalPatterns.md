@@ -65,6 +65,7 @@ Data lakes store large amounts of unstructured and structured data in its native
 **Data lakehouse**
 A data lakehouse merges these two approaches to create a single structure that allows you to access and leverage data for many different purposes, from BI to data science to machine learning. In other words, a data lakehouse captures all of your organization’s unstructured, structured, and semi-structured data and stores it on low-cost storage while providing the capabilities for all users to organize and explore data according to their needs.
 
+![Data Lakehouse](../images/lakehouse.png)
 
 ## **Other Notable Architectures**
 

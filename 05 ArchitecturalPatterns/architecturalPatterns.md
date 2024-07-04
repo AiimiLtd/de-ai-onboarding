@@ -1,4 +1,4 @@
-## **Common Architectural Patterns**
+# **Common Architectural Patterns**
 
 Architectural design choices must be made based on the use case at hand. However, some designs appear more than others.
 

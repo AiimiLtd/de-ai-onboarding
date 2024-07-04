@@ -1,4 +1,4 @@
-## **Concepts**
+# **Concepts**
 
 **The importance of file formats**
 

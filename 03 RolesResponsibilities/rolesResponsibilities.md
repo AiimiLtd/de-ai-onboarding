@@ -5,7 +5,7 @@ As a consultant data engineer, you play a crucial role in helping our clients ha
 
 * Continuous Learning
 
-Becoming a data engineer is only the first step. Our industry is moving faster than ever, and tt is imperatvie that you stay updated with the latest industry trends, tools, and best practices. Continuously learn and adapt to new technologies and methodologies.
+Becoming a data engineer is only the first step. Our industry is moving faster than ever, and tt is imperative that you stay updated with the latest industry trends, tools, and best practices. Continuously learn and adapt to new technologies and methodologies.
 
 * Mentorship
 

@@ -1,5 +1,7 @@
 ## **Concepts**
 
+**The importance of file formats**
+
 **ETL/ELT**
 
 **OLAP & OLTP**

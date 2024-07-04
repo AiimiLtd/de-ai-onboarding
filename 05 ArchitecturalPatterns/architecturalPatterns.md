@@ -1,46 +1,55 @@
 ## **Common Architectural Patterns**
 
-Architectutal design choices must be made based on the use case at hand. However, some designs appear more than others. 
+Architectural design choices must be made based on the use case at hand. However, some designs appear more than others.
 
-### **Lake-based Architectures**
+## **Lake-based Architectures**
 
 Lake-based architectures leverage data lakes to store large volumes of raw and processed data in a flexible and scalable manner. These architectures are commonly used for big data analytics and machine learning use cases.
 
-**Medallion Architecture**
+In the Azure stack, this means heavily utilising **blob storage** (also referred to as Azure Data Lake Storage)
 
-Medallion Architecture, also known as the "bronze, silver, gold" , or "Multi-Hop architecture", organizes data in a layered approach within a data lake. Data is ingested into the "bronze" layer, refined in the "silver" layer, and enriched for business use in the "gold" layer.
+### **Medallion Architecture**
 
-It's important to note that the layers are *guidelines*. In practice, we have many more layers for differing purposes. For example, we may have an initial "Landing" layer for inbound data. We have several pahses within a "Silver" layer for different use cases.
+The Medallion Architecture, also known as the "bronze, silver, gold" , or "Multi-Hop" architecture, organises data in a layered approach within a data lake. Data is ingested into the "bronze" layer, refined in the "silver" layer, and enriched for business use in the "gold" layer.
 
-Also worth noting is that the namig convention of "bronze, silver, gold" is fluid. For example it may be referred to as "raw, base, curated". The core principle is the we begin with raw unprocessed data which provides a "single source of the truth", and then we progressively increase quality until the "gold" or "curated" report-ready data.
+It's important to note that the layers are *guidelines*. In practice, we may have many more layers for differing purposes. For example, we may have an initial "Landing" layer for inbound data. There might be several phases within a "Silver" layer for different use cases.
 
-Pros:
+Also worth noting is that the naming convention of "bronze, silver, gold" is fluid. For example it may be referred to as "raw, base, curated".
+
+The **core principle** is that we begin with raw unprocessed data which provides a *single source of the truth*, and then we progressively increase quality until the "gold" or "curated" report-ready data.
+
+**Pros:**
+
 Data Quality: Enhances data quality through incremental processing stages.
 Scalability: Scalable storage and processing using data lake capabilities.
 Flexibility: Adapts to various data sources and types, supporting diverse analytical needs.
 
-Cons:
+**Cons:**
+
 Complexity: Complexity & storage costs.
 
-**Write-Audit-Publish**
-Write-Audit-Publish (WAP) is a data processing pattern that ensures data integrity and auditability. Data is first written to a raw layer, then audited for quality and compliance, and finally published for consumption. It is similar to the Medallion Architecture but subtley different.
+![Medallion Architecture](images/medallionArch.png)
 
-Pros:
+### **Write-Audit-Publish**
+
+Write-Audit-Publish (WAP) is a data processing pattern that ensures data integrity and auditability.
+
+Data is first written to a raw layer, then audited for quality and compliance, and finally published for consumption. It is similar to the Medallion Architecture but subtly different.
+
+**Pros:**
+
 Data Integrity: Ensures data is validated and compliant before consumption.
 Auditability: Provides a clear audit trail of data processing and changes.
 Quality Assurance: Enhances data quality through systematic auditing.
-Cons:
+
+
+**Cons:**
+
 Implementation Effort: Requires careful implementation of auditing and publishing mechanisms.
-
-Examples:
-Write Layer: Initial data ingestion without transformation.
-Audit Layer: Validation and quality checks to ensure data accuracy.
-Publish Layer: Finalized data available for downstream applications and analytics.
-
 
 ### **Data Lakehouse**
 
-The above architectures lend themselves to the Data Lakehouse architecture, which we commonly employ.
+The above architectures lend themselves to a Data Lakehouse architecture, which we commonly employ.
 
 A data lakehouse is a modern data architecture that creates a single platform by combining the key benefits of data lakes (large repositories of raw data in its original form) and data warehouses (organized sets of structured data). Specifically, data lakehouses enable organizations to use low-cost storage to store large amounts of raw data while providing structure and data management functions. 
 
@@ -54,4 +63,9 @@ Data warehouses provide fast access to data and SQL compatibility for business u
 Data lakes store large amounts of unstructured and structured data in its native format. Unlike data warehouses, data is processed, cleaned up, and transformed during analysis to enable faster loading speeds, making them ideal for big data processing, machine learning, or predictive analytics. However, they require expertise in data engineering, which limits the set of people who can use the data, and if they’re not properly maintained, data quality can deteriorate over time. Data lakes also make it more challenging to get real-time queries as the data is unprocessed, so it still potentially needs to be cleaned, processed, ingested, and integrated before it can be used. 
 
 **Data lakehouse**
-A data lakehouse merges these two approaches to create a single structure that allows you to access and leverage data for many different purposes, from BI to data science to machine learning. In other words, a data lakehouse captures all of your organization’s unstructured, structured, and semi-structured data and stores it on low-cost storage while providing the capabilities for all users to organize and explore data according to their needs. 
+A data lakehouse merges these two approaches to create a single structure that allows you to access and leverage data for many different purposes, from BI to data science to machine learning. In other words, a data lakehouse captures all of your organization’s unstructured, structured, and semi-structured data and stores it on low-cost storage while providing the capabilities for all users to organize and explore data according to their needs.
+
+
+## **Other Notable Architectures**
+
+Lambda, Kappa, etc. To do.

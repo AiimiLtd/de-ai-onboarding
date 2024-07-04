@@ -28,7 +28,7 @@ Flexibility: Adapts to various data sources and types, supporting diverse analyt
 
 Complexity: Complexity & storage costs.
 
-![Medallion Architecture](images/medallionArch.png)
+![Medallion Architecture](../images/medallionArch.png)
 
 ### **Write-Audit-Publish**
 

@@ -22,6 +22,12 @@ https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamenta
 * Azure AI Engineer
 https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/?practice-assessment-type=certification
 
+**Engineering Roadmap**
+
+https://awesomedataengineering.com/
+
+
+
 
 
 **Programming**

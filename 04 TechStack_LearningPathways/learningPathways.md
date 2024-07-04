@@ -1,6 +1,5 @@
 # **Learning Pathways**
 
-
 ## **Azure Eco-System**
 
 Aiimi will cover costs for you to gain **certifications** on MSLearn. Many colleagues have completed these certifications, so feel free to ask for help.

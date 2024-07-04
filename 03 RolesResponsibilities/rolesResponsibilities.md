@@ -9,7 +9,11 @@ Becoming a data engineer is only the first step. Our industry is moving faster t
 
 * Mentorship
 
-Everyone at aiimi will have the opportunity to have a mentor, or indeed to be a mentor. This is a great opportunity for us all to learn. 
+Everyone at aiimi will have the opportunity to have a mentor, or indeed to be a mentor. This is a great opportunity for us all to learn.
+
+* Role Model
+
+Whether you like it or not, you'll be a role model. This could be to the client, or to other aiimi engineers. Take this responsibility head on and consider this whenever you deliver a project or interact with people.
 
 * Requirement Gathering
 

@@ -29,4 +29,6 @@ Onboarding curriculum:
 Misc,
 * 09 aiimi style guide
 
+* 10 Scrum and Agile Working Basics
+
   

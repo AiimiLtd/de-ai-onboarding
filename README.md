@@ -4,7 +4,7 @@
 
 Welcome to aiimi!
 
-This is your onboarding pack. It is *not* intended to teach you to become a data engineer. Rather, it aims to quickly acclimate you to the aiimi landscape and understand our commonly used approaches and technologies.
+This is your onboarding pack. It is *not* intended to teach you to become a data engineer. Rather, it aims to quickly acclimate you to the aiimi landscape and help you to understand our commonly used approaches and technologies.
 
 In addition, all aiimi employees are enrolled to the Aiimi Leadership Training Program (ALTP), which will help develop you further as a consultant at aiimi. 
 

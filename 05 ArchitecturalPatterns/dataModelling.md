@@ -22,3 +22,24 @@ Your first areas of focus should be:
     * Is the data in question structured, semi-structured, unstructured, or a combination?
 
 Once you understand these issues, you can make a more well informed decision on what to build.
+
+## **Approaches to Relational Modelling**
+
+### **Kimball**
+
+To do
+
+### **One Big Table (OBT)**
+
+To do
+
+## **Inmon**
+
+Less bothered about this, but still to do...
+
+## **Approaches to NoSQL Modelling**
+
+Focussing on Azure CosmosDB
+
+To do
+

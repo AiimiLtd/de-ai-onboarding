@@ -1,6 +1,6 @@
 # **Common Architectural Patterns**
 
-Architectural design choices must be made based on the use case at hand. However, some designs appear more than others.
+Architectural design choices must be made based on the use case at hand and intended data access patterns (also see dataModelling.md). However, some designs appear more than others.
 
 ## **Lake-based Architectures**
 

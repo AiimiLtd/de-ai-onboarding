@@ -43,3 +43,15 @@ Focussing on Azure CosmosDB
 
 To do
 
+Flesh out my "block design" for NoSQL...
+```
+{
+  "id": "123-456-789",
+  "discriminator": "guide",
+  "details": {
+    "title": "Approaches to Data Modelling",
+    "topic": "NoSQL",
+    "skillRequired": 10,
+  },
+}
+```

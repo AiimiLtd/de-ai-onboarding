@@ -11,9 +11,17 @@ This is your onboarding pack. It is *not* intended to teach you to become a data
 
 In addition, all aiimi employees are enrolled to the Aiimi Leadership Training Program (ALTP), which will help develop you further as a consultant at aiimi.
 
+Note that '00 Resources' contains *at a glance* documents which should help you during client engagements. Use these when you need quick inspiration.
+
+The rest of the curricula is in its suggested order.
+
 -------------
 
 Onboarding curriculum:
+
+* **00 Resources**
+    * Checklists
+    * Use Cases and Suggested Solutions
 
 * **01 Orientation**: 
     * Company values
@@ -61,12 +69,6 @@ Onboarding curriculum:
     * CI/CD
     * Docker
 
---------------------
-
-### **Misc. guides**
-
-* **09 aiimi style guide**
-
-* **10 Scrum and Agile Working Basics**
-
-  
+* **09 aiimi style guide**:
+    * PySpark
+    * SQL

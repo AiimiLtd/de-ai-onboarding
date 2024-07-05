@@ -39,11 +39,12 @@ Less bothered about this, but still to do...
 
 ## **Approaches to NoSQL Modelling**
 
-Focussing on Azure CosmosDB
+Focussing on Azure CosmosDB (Horiz. scaling, partitioning (PK), access patterns etc)
 
 To do
 
 Flesh out my "block design" for NoSQL...
+
 ```
 {
   "id": "123-456-789",
@@ -53,5 +54,10 @@ Flesh out my "block design" for NoSQL...
     "topic": "NoSQL",
     "skillRequired": 10,
   },
+  "documentMetadata: {
+    "createdOn": "...",
+    "createdById": "..."
+    ...
+  }
 }
 ```

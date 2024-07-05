@@ -1,6 +1,6 @@
 # **Concepts**
 
-**The importance of file formats**
+## **The importance of file formats**
 
 File formats are an often overlooked yet crucial part of data engineering. They determine how data is stored, compressed, and accessed. Choosing the right file format can impact data processing speed, storage efficiency, and interoperability with other systems. Common file formats include:
 
@@ -24,14 +24,14 @@ Delta Lake uses versioned Parquet files to store your data in your cloud storage
 
 ![delta file](../images/delta.png)
 
-**Partitioning**
+## **Partitioning**
 
-**ETL/ELT**
+## **ETL/ELT**
 
-**OLAP & OLTP**
+## **OLAP & OLTP**
 
-**ACID Transactions**
+## **ACID Transactions**
 
-**Distributed Compute**
+## **Distributed Compute**
 
 ....

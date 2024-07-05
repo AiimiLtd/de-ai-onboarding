@@ -12,6 +12,10 @@ You have been employed because we see that you can add value for our clients. Bu
 
 Becoming a data engineer is only the first step. Our industry is moving faster than ever, and tt is imperative that you stay updated with the latest industry trends, tools, and best practices. Continuously learn and adapt to new technologies and methodologies.
 
+## **A willingness to ask for help**
+
+Be brave. If you are unsure of which approach to take, ask for help. At aiimi the Community of Practice (CoP) for Data is a font of knowledge across many disciplines. If you are unsure, it is likely that someone else will be too.
+
 ## **Mentorship**
 
 Everyone at aiimi will have the opportunity to have a mentor, or indeed to be a mentor. This is a great opportunity for us all to learn. It is NOT about hierarchy, it is about sharing knowledge and experience across the organisation so that we, and our clients, all benefit.

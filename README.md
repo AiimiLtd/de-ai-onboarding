@@ -27,12 +27,14 @@ Onboarding curriculum:
     * Structure
     * Heads of practice
     * Mentorship
+    * Community of Practice for Data (CoP-Data)
 
 - **02 Consulting basics**: 
     * Customer focus
-    * Professionalism - Optics are important
+    * Professionalism
     * Presentation skills
     * Scrum & Agile working
+    * What makes aiimi different
 
 * **03 Roles & responsibilities of a consultant data engineer**: 
     * Understanding client needs

@@ -1,7 +1,9 @@
 ![aiimi logo](./images/aiimiLogo.png)
 # **Data &amp; AI Engineering onboarding pack**
 
-[In Progress 05/07/2024]
+
+*This document **IN PROGRESS** and is **TEMPORARILY PUBLIC**
+[In Progress 11/07/2024]*
 
 ### Welcome to aiimi!
 

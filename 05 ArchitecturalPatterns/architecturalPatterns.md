@@ -14,7 +14,7 @@ The Medallion Architecture, also known as the "bronze, silver, gold" , or "Multi
 
 It's important to note that the layers are *guidelines*. In practice, we may have many more layers for differing purposes. For example, we may have an initial "Landing" layer for inbound data. There might be several phases within a "Silver" layer for different use cases.
 
-Also worth noting is that the naming convention of "bronze, silver, gold" is fluid. For example it may be referred to as "raw, base, curated".
+Also worth noting is that the naming convention of "bronze, silver, gold" is also fluid. For example it may be referred to as "raw, conform, base, curated". Where 'raw' is the literal raw data. 'Conform' converts all data to the same file format, such as parquet or delta. 'Silver' is where quality rules are applied. 'Gold' is the 'warehousing' layer, etc.
 
 The **core principle** is that we begin with raw unprocessed data which provides a *single source of the truth*, and then we progressively increase quality until the "gold" or "curated" report-ready data.
 
@@ -47,7 +47,7 @@ The term “data lakehouse” merges two types of existing data repositories: th
 
 **Data warehouses**
 
-Data warehouses provide fast access to data and SQL compatibility for business users that need to generate reports and insights for decision-making. All data must go through ETL (extract, transform, load) phase. This means it is optimized in a specific format, or schema, based on the use case before it is loaded to support high-performance queries and data integrity. However, this approach limits the flexibility of access to the data and creates additional costs if data needs to be moved around for future use. 
+Data warehouses provide fast access to data and SQL compatibility for business users that need to generate reports and insights for decision-making. All data must go through ETL (extract, transform, load) phase. This means it is optimised in a specific format, or schema, based on the use case before it is loaded to support high-performance queries and data integrity. However, this approach limits the flexibility of access to the data and creates additional costs if data needs to be moved around for future use. 
 
 **Data lakes**
 

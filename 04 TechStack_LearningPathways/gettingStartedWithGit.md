@@ -2,6 +2,10 @@
 
 As with the rest of the onboarding pack, this is not intended to *teach* you Git. Rather it is supposed to serve as a helping hand.
 
+A solid option is to use [GitHub Desktop](https://github.com/apps/desktop).
+
+However, many engineers prefer to use the terminal. If you're one of those, here are some useful actions.
+
 ## **Important Actions to Understand in Git**
 
 * **Clone**: Copy an existing Git repository to your local machine.

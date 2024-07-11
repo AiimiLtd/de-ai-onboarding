@@ -71,3 +71,44 @@ Onboarding curriculum:
 * **09 aiimi style guide**:
     * PySpark
     * SQL
+
+
+## **Contributing**
+
+To contribute to this repo first *clone it*, make a new branch, make your changes/additions, commit your code, then open a *pull request* with your proposed changes.
+
+Example steps...
+
+**Clone** the repo:
+
+```git clone https://github.com/AiimiLtd/de-ai-onboarding.git```
+
+Change to the directory:
+
+```cd de-ai-onboarding```
+
+Create a **new branch**:
+
+```git checkout -b your-new-branch-name```
+
+Make **your changes**.
+
+**Commit** your changes with a short message:
+
+```
+git add .
+git commit -m "added new feature to enhance X"
+```
+
+**Push** your changes:
+
+```
+git push origin your-new-branch-name
+```
+
+**On GitHub, open a pull request (PR)** to the main branch of the original repo.
+
+Assign reviewers.
+Address any feedback from reviewers.
+Merge Your Changes.
+Once approved, your pull request will be merged.

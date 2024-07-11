@@ -40,4 +40,10 @@ The certifications we suggest are:
 https://awesomedataengineering.com/
 
 
+## **Scrum**
+
+Useful resources:
+* [The Scrum Guide](https://scrumguides.org/scrum-guide.html)
+* [Scrum 101](https://optilearn.co.uk/courses/scrum-101/)
+* Tom Witham, Aiimi Head of Delivery
 

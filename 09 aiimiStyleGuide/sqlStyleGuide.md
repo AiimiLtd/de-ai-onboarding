@@ -2,20 +2,20 @@
 
 [IN PROGRESS]
 
-This style guide mainly focuses on explisit and consitant code formatting, and not on the actual SQL syntax.  
+This style guide mainly focuses on explicit and consistent code formatting, and not on the actual SQL syntax.  
 SQL being over 50 years has developed its own "dialects" meaning the SQL you write for Azure T-SQL database will be different to Databricks SQL, and other variants include MySQL and SQLite.  
 With this in mind this style guide is here to provide simple guidance, database specific rules will override this.
 
 ## Good Practice Guidelines
 1. Always use the schema name when referencing tables.
 1. Always use full keywords, don't use "NOCHECK" use "WITH NOCHECK" instead.
-1. Dont be implicit, be explisit. Don't use "SELECT *" use "SELECT column1, column2" instead.
-1. Always explisitly state the join type, don't use "JOIN" use "INNER JOIN" instead.
+1. Don't be implicit, be explicit. Don't use "SELECT *" use "SELECT column1, column2" instead.
+1. Always explicitly state the join type, don't use "JOIN" use "INNER JOIN" instead.
 1. Always use and capitalise keywords like "AS" and "ON".
 1. Your driving table should more often than not be the table with the least rows returned.
 1. New lines should be used to make code more readable. 
-1. Use tabs(or 4 spaces, but be consistant) to indent code to make it more readable.
-1. commas at the start or end of a line, just be consistant.
+1. Use tabs(or 4 spaces, but be consistent) to indent code to make it more readable.
+1. commas at the start or end of a line, just be consistent.
 
 
 ```SQL
@@ -41,7 +41,7 @@ INNER JOIN dbo.users AS u
 * Comments should not explain how but they should explain what and why we do something
 * You can comment with either line comments or block comments it's mostly personal preference.
 * -- Is easier and most code editors have hotkeys built in for adding and removing these comments. If you lose the format of your code these can be a nightmare.
-* /**/ creates a block comment which will survive bad formating but is not as widely accepted.
+* /**/ creates a block comment which will survive bad formatting but is not as widely accepted.
 
 ```SQL
 --Bad practice

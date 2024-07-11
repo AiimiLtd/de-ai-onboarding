@@ -17,6 +17,11 @@ Instead, be explicit
 
 
 ```python
+
+## bad practice
+from pyspark.sql.functions import *
+
+## good practice
 from pyspark.sql import functions as F
 ```
 
@@ -37,18 +42,22 @@ All functions should, at the very least, have a minimal doc string explaining wh
 
 ### **Type & Return Hints**
 
-All functions should include Type & Return hints.
+All functions should include Type & Return hints to reduce ambiguity. This also helps with any AI-assisted programming.
 
 ```python
 from pyspark.sql import functions as F
 from pyspark.sql import DataFrame
 
 def with_ingestion_time(df: DataFrame, new_col_name: str = "ingestionTime") -> DataFrame:
-    """Add timestamp col"""
+    """
+    Adds a timestamp column using the current timestamp
+    """
     return df.withColumn(new_col_name, F.current_timestamp())
 
 def with_explode_column(df: DataFrame, column_to_explode: str) -> DataFrame:
-    """Explode an array column"""
+    """
+    Explodes an array column
+    """
     return df.withColumn(column_to_explode, F.explode(column_to_explode))
 ```
 
@@ -57,6 +66,8 @@ def with_explode_column(df: DataFrame, column_to_explode: str) -> DataFrame:
 When applying functions to a DataFrame, use the ```transform``` method.
 
 ```python
+
+## good practice
 refinedDf = (
         df
         .transform(with_ingestion_time, new_col_name="ingestionTime")
@@ -68,7 +79,7 @@ This provides supreme readability and clarity for that is being applied to a Dat
 Name new DataFrames with a representative variable name. **Never** do this:
 
 ```python
-
+## bad practice
 df1 = with_ingestion_time(df)
 df2 = with_explode_column(df1)
 df3...

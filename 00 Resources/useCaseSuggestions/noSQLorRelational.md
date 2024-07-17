@@ -30,3 +30,7 @@ One approach could be to run a Transactional focussed database to power the Webs
 In Azure, we could utilise CosmosDB, a NoSQL database which optimises for scale and latency as the transactional store. For the analytical store, we could utilize Azure Synapse Link in order to get a columnar representation of CosmosDB for "free".
 
 Next, we could extract data from CosmosDB using Synapse Link, and surface that data in a Serverless SQL Pool. Why serverless? The reporting requirements are only used once daily, meaning we don't need the overhead of a Dedicated SQL Pool. In addition, no row-level security features are needed.
+
+We could construct any tables or views and surface them to Power BI. 
+
+Next we could utlise Azure Synpase Pipelines to orchestrate this solution -- running the pipline once per day.

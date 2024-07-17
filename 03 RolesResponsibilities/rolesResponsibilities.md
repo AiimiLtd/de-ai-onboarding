@@ -2,9 +2,15 @@
 
 As a consultant data engineer, you play a crucial role in helping our clients harness the power of data to drive their business decisions. You'll need technical skills, but you'll also have other roles and responsibilities you may not have considered.
 
+## **You are an expensive resource**
+
+Our clients are **paying a non-trivial amount** for your **expertise and opinions** -- never forget this simple fact. 
+
+You are also the face of aiimi. What you say and do counts.
+
 ## **Technical Expertise**
 
-First and foremost, you are to be a technical expert. This does not mean you have to know the answers to every question - that's impossible. we do however expect all of our consultants to have a genuine interest and passion for the tech industry, and research current and emerging trends.
+First and foremost, you are to be a technical expert. This does not mean you have to know the answers to every question - that's impossible. we do however expect all of our consultants to have a **genuine interest and passion for the tech industry, and research current and emerging trends**.
 
 You have been employed because we see that you can add value for our clients. But your journey as a data engineer continues...
 

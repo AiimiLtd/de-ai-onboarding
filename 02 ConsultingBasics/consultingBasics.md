@@ -7,6 +7,9 @@ The headline is that our customers are **paying a non-trivial amount** for your 
 ## **Your job**
 Your job is simply to **help the customer to solve their problems**. Often, this will also include **defining** the problem in the first place. Therefore you need to **ask questions**, (think *why* x5).
 
+## **Empathy, empathy, empathy**
+Putting yourself in the clients' shoes can help you to understand their motives, aims, pressures, etc. Attempt to truly *understand* their position.
+
 ## **How you present yourself**
 How you present yourself is critical. Aiimi's style isn't beige-corporate, but it is **professional**.
 Treat everyone with respect (which includes being willing them challenge them in order to ultimately help them!).
@@ -20,13 +23,3 @@ You need **technical expertise**. Does this mean you have to know the answer to 
 2) do your best to **network & research** to find the answers,
 3) be willing to **ask the client for more information** in order to help you find the answers, and
 4) **continuously learn** -- the industry is fast-moving and a you need to use your initiative to stay at the sharp-end of what's possible.
-
-
-....
-
-
-## **What makes aiimi, aiimi?**
-
-How you present yourself is critical. I'll repeat: Aiimi's style isn't beige-corporate, but it is professional.
-
-...

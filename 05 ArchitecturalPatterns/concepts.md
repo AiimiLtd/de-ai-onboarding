@@ -27,17 +27,17 @@ Delta Lake uses versioned Parquet files to store your data in your cloud storage
 
 ## **ETL/ELT**
 
-ETL stands for Extract, Transform, Load. It is a process in data warehousing responsible for extracting data from various sources, transforming it into a format that can be easily analysed, and loading it into a data warehouse.
-
-ELT stands for Extract, Load, Transform. It is a process in data warehousing responsible for extracting data from various sources, loading it into a data warehouse, and then transforming it into a format that can be easily analysed.
-
 Pros and cons of ETL vs ELT:  
 
 * ETL is better for traditional data warehousing, where data is cleaned and transformed before being loaded into the warehouse. This makes it easier to analyse the data, but can be slower and more resource-intensive.  
 
 * ELT is better for big data and cloud-based data warehousing, where data is loaded into the warehouse first and then transformed. This can be faster and more scalable, but can also be more complex and harder to manage.  
 
-* ETL is better for structured data, where the schema is known in advance. ELT is better for unstructured or semi-structured data, where the schema may change over time.
+* ETL is better for structured data, where the schema is known in advance.
+
+* ELT is better for unstructured or semi-structured data, where the schema may change over time.
+
+Typically in our data engineering role we should know when is best to use either ETL or ELT, and be able to implement both.
 
 ## **OLAP & OLTP**
 
@@ -45,7 +45,7 @@ OLAP (Online Analytical Processing) systems are designed to handle complex queri
 
 OLTP (Online Transaction Processing) systems are designed to handle high volumes of transactions, and are primarily used for transactional workloads such as e-commerce, banking, and other real-time applications. OLTP systems are optimised for write-heavy workloads, and are typically used to process transactions, update records, and perform other real-time operations.
 
-Typically in our data engineering role we pull data from OLTP systems, transform it, and load it into OLAP systems for analysis.
+Typically in our data engineering role we pull data from OLTP systems, transform it, and load it into OLAP systems for analysis. However we should also consider the use of OLAP systems for real-time analytics, and OLTP systems for batch processing, being able to implement both.
 
 ## **ACID Transactions**
 

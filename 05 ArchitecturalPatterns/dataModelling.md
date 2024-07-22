@@ -27,7 +27,9 @@ Once you understand these issues, you can make a more well informed decision on 
 
 ### **Kimball**
 
-To do
+Kimball is a dimensional modelling approach. It is designed to make data more accessible to end-users, and is particularly suited to data warehousing and business intelligence applications. The Kimball approach is based on the idea of a star schema, where a central fact table is surrounded by dimension tables. This makes it easy to query the data and generate reports.
+
+Proper understanding of the Kimball approach is essential for any data engineer working in the field of business intelligence, however we should not be scared to deviate from this approach if the use case demands it. No one approach is perfect for every situation.
 
 ### **One Big Table (OBT)**
 

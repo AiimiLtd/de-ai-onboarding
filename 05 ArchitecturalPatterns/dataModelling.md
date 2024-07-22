@@ -33,7 +33,11 @@ Proper understanding of the Kimball approach is essential for any data engineer 
 
 ### **One Big Table (OBT)**
 
-To do
+The One Big Table approach is the opposite of the Kimball approach. Instead of breaking the data down into smaller tables, the One Big Table approach combines all the data into a single table. This can make it easier to query the data, but can also make it harder to manage and maintain.
+
+The One Big Table approach is not as widely used as the Kimball approach, but it can be useful in certain situations. For example, if you have a small dataset that is not going to change very often, the One Big Table approach might be a good choice.
+
+One Big Table is also a good choice if your end-users are not very skilled in data analysis, as it can make the data more accessible to them.
 
 ## **Inmon**
 

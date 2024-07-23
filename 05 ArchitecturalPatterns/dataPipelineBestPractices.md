@@ -36,3 +36,34 @@ For loading just new and changed data, there are two broad approaches on how to 
 
 * **Destination Change Comparison:**
   If the source for a given data pipeline doesn’t support source change detection, you can fall back to a source-to-destination comparison to determine which data should be inserted or updated. This method of change detection requires a row-by-row analysis to differentiate unchanged data from that which has recently been created or modified. Because of this, you’ll not see the same level of performance as with source change detection. To make this work, all the data (or at least the entire period of data that you care about monitoring for changes) must be brought into the data pipeline for comparison. Although it doesn’t perform as well as source-side change detection, using this comparison method has the fewest technical assumptions. It can be used with almost any structured data source.
+
+## **Idempotency**
+Generally, an operation is termed idempotent if it can be applied multiple times without changing the result beyond its initial application. In terms of data pipelines, idempotence means that no matter how many times you execute the pipeline, the outcome should stay consistent after the first execution.
+
+### **Idempotency in Data Pipelines**
+Specifically, data pipelines should exhibit the following properties which contribute to them being considered idempotent.
+
+* When re-executing a data pipeline, data should not be duplicated downstream.
+* If the pipeline breaks or is down for a day, the next run should catch up.
+* Whether running the pipeline today or historically, it should not result in, or cause unintended consequences.
+
+### How to implement an Idempotent Pipeline
+Generally speaking, to achieve an idempotent pipeline, every time data is curated and persisted to disk, the write process should honour the above principals. Following the below strategies will help with this.
+
+* **Use a mechanism to identify each unique record:**
+  * Use unique keys or natural keys to identify records. This will allow you to use upsert statements or other mechanisms to ensure that data is only inserted or updated if it doesn’t already exist.
+  * If no such key is present in the source data, use a form of hashing to to create your own. Most database management systems come with hashing functions out of the box.
+* **Replacing existing rows with new values from the source row (upserting using a MERGE statement):** 
+  * Using a MERGE statement allows inserting/updating/deleting in a single atomic operation by using the unique record key.
+  * For example, the below MERGE statement compares a source table to a target table based on a key column. If a target row is detected, it is updated. If a target row is not found, it is inserted.<br><br>
+    ```
+    MERGE INTO target
+    USING source
+        ON source.key = target.key
+    WHEN MATCHED THEN
+        UPDATE SET *
+    WHEN NOT MATCHED THEN
+        INSERT *
+    ```
+  * MERGE syntax and functions vary by tech stack but generally the concept is the same. See the below link for the Databricks/Delta specific implementation.<br>
+  https://learn.microsoft.com/en-us/azure/databricks/delta/merge

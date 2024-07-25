@@ -67,3 +67,15 @@ Generally speaking, to achieve an idempotent pipeline, every time data is curate
     ```
   * MERGE syntax and functions vary by tech stack but generally the concept is the same. See the below link for the Databricks/Delta specific implementation.<br>
   https://learn.microsoft.com/en-us/azure/databricks/delta/merge
+
+## **Error Handling**
+Error handling is the practice of automating error responses/conditions to keep the pipeline running or alerting relevant individuals/teams. The following approaches detail methods for handling errors.
+
+* **Retry Mechanisms:**
+Pipelines often fail due to scenarios that are outside of our control such as network issues, hardware failures or other transient issues. Building in an automated retry mechanism will ensure that a pipeline can gracefully handle these scenarios. Be mindful to set a sensible maximum retry limit. 
+
+* **Alerting:**
+Alerts might come in the form of an email or direct message on a clients preferred messaging platform. When alerting, be mindful of alert fatigue. Alert fatigue refers to an overwhelming number of notifications which results in recipients ignoring them. Be sure to reserve alerts for scenarios that cannot be ignored.
+
+* **Logging:**
+Logging the executions of a pipeline as well as any error conditions will help with troubleshooting. Logging options depend on the tech stack being used and how the pipeline is orchestrated so there is no one-size-fits-all approach. However, it's important that an appropriate execution history is persisted in some way to understand the scope of a potential issue.

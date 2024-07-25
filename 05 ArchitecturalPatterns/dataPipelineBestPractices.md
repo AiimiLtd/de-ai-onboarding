@@ -21,7 +21,7 @@ Selecting the appropriate tools and tech stack for your data pipeline is an impo
 
 * **Data Characteristics:** Identify the types of data you will be handling (structured, unstructured, or semi-structured), their formats and their volume and velocity.
   
-* **Processing Requirements:** Determine whether your pipeline needs to handle real-time data streams or batch processing. Some tools are optimised for real-time analytics, while others excel in batch processing.
+* **Processing Requirements:** Determine whether your pipeline needs to handle real-time data streams or batch processing. Some tools are optimised for real-time analytics, while others excel in batch processing. See the [Batch](./etlPatterns.md#batch) and [Streaming](./etlPatterns.md#streaming) sections for more details.
 
 * **Scalability and Flexibility:** Consider the scalability needs of your pipeline. Choose tools that can scale horizontally to handle growing data volumes and are flexible enough to accommodate changes in data sources or processing requirements if the volume/velocity of data is expected to change over time.
 
@@ -81,8 +81,9 @@ Generally speaking, to achieve an idempotent pipeline, every time data is curate
   * If no such key is present in the source data, use a form of hashing to to create your own. Most database management systems come with hashing functions out of the box.
 * **Replacing existing rows with new values from the source row (upserting using a MERGE statement):** 
   * Using a MERGE statement allows inserting/updating/deleting in a single atomic operation by using the unique record key.
-  * For example, the below MERGE statement compares a source table to a target table based on a key column. If a target row is detected, it is updated. If a target row is not found, it is inserted.<br><br>
-    ```
+  * For example, the below MERGE statement compares a source table to a target table based on a key column. If a target row is detected, it is updated. If a target row is not found, it is inserted.  
+
+    ```SQL
     MERGE INTO target
     USING source
         ON source.key = target.key
@@ -91,7 +92,7 @@ Generally speaking, to achieve an idempotent pipeline, every time data is curate
     WHEN NOT MATCHED THEN
         INSERT *
     ```
-  * MERGE syntax and functions vary by tech stack but generally the concept is the same. See the below link for the Databricks/Delta specific implementation.<br>
+  * MERGE syntax and functions vary by tech stack but generally the concept is the same. See the below link for the Databricks/Delta specific implementation.  
   https://learn.microsoft.com/en-us/azure/databricks/delta/merge
 
 ## **Error Handling**

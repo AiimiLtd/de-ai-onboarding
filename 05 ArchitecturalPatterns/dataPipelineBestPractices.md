@@ -1,11 +1,9 @@
 # **Data Pipeline Best Practices**
-Generally, following these data pipeline best practices will result in a data pipeline that exhibits the following characteristics:
+While best practices provide a solid foundation for building robust and efficient data pipelines, it's important to recognise that each clients needs and constraints are unique. The specifics of the data sources, the nature of the data being processed, the regulatory landscape and the desired outcomes all play critical roles in shaping the design and implementation of your pipeline. 
 
-- Efficiency
-- Scalability
-- Reliability
-- Resilience
-- Security
+Therefore, while best practices offer general guidelines, it's crucial to tailor them to your particular context. This might involve prioritising certain aspects over others, adapting techniques to fit your infrastructure, or innovating new solutions that better meet your specific challenges. Ultimately, a successful data pipeline is one that aligns closely with your clients goals and requirements, balancing best practices with practical considerations to achieve optimal performance and reliability.
+
+With the above caveat in mind, here are some best practices to consider when implementing a data pipeline.
 
 ## **Incremental Loads**
 An incremental load is the selective movement of data from one system to another. An incremental load pattern will attempt to identify the data that was created or modified since the last time the load process ran. This differs from a full data load, which copies the entire set of data from a given source. The selectivity of the incremental design usually reduces the system overhead required for the loading portion of the data pipeline.

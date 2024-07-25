@@ -16,6 +16,21 @@ During the design of a data pipeline, it is important to consider the limitation
 
 * **Scheduled Loading Windows:** Schedule data extraction during off-peak hours or periods of low activity on the source system. This reduces the risk of contention and minimises the impact on the users of the system.
 
+## **Choosing the Right Tool for the Job**
+Selecting the appropriate tools and tech stack for your data pipeline is an important step. The choice of tools depends on various factors, including the type and volume of data, processing needs, the specific goals of the pipeline and the type of consumers at the pipelines destination. Here are some considerations for choosing the right tool for your data pipeline.
+
+* **Data Characteristics:** Identify the types of data you will be handling (structured, unstructured, or semi-structured), their formats and their volume and velocity.
+  
+* **Processing Requirements:** Determine whether your pipeline needs to handle real-time data streams or batch processing. Some tools are optimised for real-time analytics, while others excel in batch processing.
+
+* **Scalability and Flexibility:** Consider the scalability needs of your pipeline. Choose tools that can scale horizontally to handle growing data volumes and are flexible enough to accommodate changes in data sources or processing requirements if the volume/velocity of data is expected to change over time.
+
+* **Source / Destination Compatibility:** Ensure the tools you choose can integrate well with your data sources and destinations. For example, if your data sources are all cloud based, hosted in Microsoft Azure, data tools in the Azure tech stack (e.g. Azure Data Factory, Azure Synapse Analytics, Fabric) might be more appropriate.
+
+* **Cost and Budget Considerations:** When choosing a tool, it is prudent to be aware of the potential costs. Typically, costing solutions is very challenging given the amount of variables that can have an impact on the cost. Using a cost/benefit approach that utilises relative costs helps in the decision making process.
+
+* **Consider Your Consumers:** Knowing your audience is important when choosing the tools for the pipeline. For example, if the pipelines primary purpose is to facilitate making data available to report developers, choosing a tool aligns to the reporting teams existing programming skills (e.g a tool that allows querying data via SQL) will be beneficial and aid adoption.
+
 ## **Incremental Loads**
 An incremental load is the selective movement of data from one system to another. An incremental load pattern will attempt to identify the data that was created or modified since the last time the load process ran. This differs from a full data load, which copies the entire set of data from a given source. The selectivity of the incremental design usually reduces the system overhead required for the loading portion of the data pipeline.
 
@@ -24,8 +39,10 @@ The selection of data to move is often based on time, typically when the data wa
 ### Benefits of the Incremental Load 
 * **Speed:** 
   They typically run considerably faster since they touch less data. Assuming no bottlenecks, the time to move and transform data is proportional to the amount of data being touched.
+
 * **Reduced Risk:**
   Because they touch less data, the surface area of risk for any given load is reduced. Any load process has the potential of failing or otherwise behaving incorrectly and leaving the destination data in an inconsistent state.
+
 * **Consistent Performance:**
   Incremental load performance is usually steady over time. If you run a full load, the time required to process is monotonically increasing because today’s load will always have more data than yesterday’s. Because incremental loads only move the delta, you can expect more consistent performance over time.
 

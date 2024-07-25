@@ -5,6 +5,17 @@ Therefore, while best practices offer general guidelines, it's crucial to tailor
 
 With the above caveat in mind, here are some best practices to consider when implementing a data pipeline.
 
+## **Understanding Your Source Systems**
+During the design of a data pipeline, it is important to consider the limitations, capabilities and nuances of the source systems from which data is being extracted. Overburdening these systems can lead to performance degradation, angry source system owners and even outages. Here are some strategies and considerations to ensure that data extraction processes are efficient and non-disruptive:
+
+* **System Performance and Capacity:** Before designing the data extraction process, evaluate the source systems performance characteristics and capacity limits. Interviewing the source systems technical team or owner can give a good insight into this.
+
+* **Read-Replicas / Built-in Services:** Where possible, use features that are baked into the source system such as read-replicas and standby databases to offload data extraction from the source system. Use any built-in APIs or services provided by the source system, these are often optimised for data extraction. Using these pre-existing services reduces the load on the primary system and can improve the overall performance and reliability of the data extraction process. Again, having a relationship with the source system owner will ensure that you are aware of all the possible options.
+
+* **Incremental Source System Loads:** Instead of extracting full datasets, use incremental data loading techniques. If the source system already has change tracking techniques baked in, those can be utilised if your pipeline. See the [Incremental Loads](#incremental-loads) section for more details.
+
+* **Scheduled Loading Windows:** Schedule data extraction during off-peak hours or periods of low activity on the source system. This reduces the risk of contention and minimises the impact on the users of the system.
+
 ## **Incremental Loads**
 An incremental load is the selective movement of data from one system to another. An incremental load pattern will attempt to identify the data that was created or modified since the last time the load process ran. This differs from a full data load, which copies the entire set of data from a given source. The selectivity of the incremental design usually reduces the system overhead required for the loading portion of the data pipeline.
 

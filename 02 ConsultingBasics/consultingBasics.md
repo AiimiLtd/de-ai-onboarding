@@ -63,11 +63,12 @@ You need **technical expertise**. Does this mean you have to know the answer to 
 3) Get practiced **asking the client for more information** - we're working together to complete this project and if what they need isn't clear, it's better to ask them than build something undesirable.
 4) **Continuously learn** - One reason why a company hires consultants is because they doesn't have their own in-house expertise or their experts are too stretched, so they pay extra for people who have an already established skillset. So, use your own initiative (and training days!) to stay at the sharp-end of what's possible in this fast-moving industry.
 
-## **What makes aiimi, aiimi?**
-
-How you present yourself is critical. I'll repeat: Aiimi's style isn't beige-corporate, but it is professional.
-
-(short thing about Aiimi values here)
+## **What makes Aiimi, Aiimi?**
+Aiimi's values are:
+- Brave
+- Expert
+- Caring 
+- Integrity
 
 ### Finally,
 A personal piece of advice: Chat to people in the office (if you can make it to MK). Aiimi is full of kind, welcoming, and delightful people that would love to get to know you and will make your experience at Aiimi so rewarding.

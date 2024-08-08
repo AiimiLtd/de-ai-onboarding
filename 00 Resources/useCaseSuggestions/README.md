@@ -1,12 +1,5 @@
-Given a use case, demonstrate a suggested architectural solution... 
+# **Scenarios and Suggested Approaches**
 
-Problem statement:
+## **What this is, and is not**
 
-Aim:
-
-End users:
-
-...
-
-
-Solution Architecture:
+This is not a *prescriptive* document. All the answers are not contained herein. Rather, it is meant as a *helper*. 

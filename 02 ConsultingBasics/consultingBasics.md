@@ -31,6 +31,9 @@ This is achieved in Aiimi using the Scrum/Agile framework which can be delved in
 
 At Aiimi, we succeed as a team and fail as a team - there are very few instances where there is just one person responsible for a mistake. It is up to all of us to challenge and support each other to ensure the success of a project.
 
+## **Empathy, empathy, empathy**
+Putting yourself in the clients' shoes can help you to understand their motives, aims, pressures, etc. Attempt to truly *understand* their position.
+
 ## **How you present yourself**
 How you present yourself is critical. Aiimi employees are known by our clients as:
 

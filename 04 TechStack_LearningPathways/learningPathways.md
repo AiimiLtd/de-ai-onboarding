@@ -12,7 +12,6 @@ For more advanced topics, we suggest:
 
 * [Data Engineer Associate](https://www.databricks.com/learn/certification/data-engineer-associate)
 
-
 * [Data Engineer Professional](https://www.databricks.com/learn/certification/data-engineer-professional)
 
 * [Generative AI Engineer Associate](https://www.databricks.com/learn/certification/genai-engineer-associate)
@@ -32,6 +31,12 @@ The certifications we suggest are:
 
 * [Azure AI Engineer](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/?practice-assessment-type=certification)
 
+## **Power Bi**
+
+Power Bi is used by many clients so it is advisable to be familiar with it. The course below provides a good overview of transforming data, creating data models,
+visualising data, and sharing assets.
+
+* [Power BI Data Analyst Associate](https://learn.microsoft.com/en-us/credentials/certifications/data-analyst-associate/?practice-assessment-type=certification)
 
 ## **Programming**
 
@@ -45,5 +50,5 @@ https://awesomedataengineering.com/
 Useful resources:
 * [The Scrum Guide](https://scrumguides.org/scrum-guide.html)
 * [Scrum 101](https://optilearn.co.uk/courses/scrum-101/)
-* Tom Witham, Aiimi Head of Delivery
+* Tom Whittam, Aiimi Head of Delivery
 

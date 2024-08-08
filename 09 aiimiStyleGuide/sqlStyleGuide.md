@@ -1,22 +1,27 @@
 # **SQL Style Guide**
 
-[IN PROGRESS]
+## Introduction
 
 This style guide mainly focuses on explicit and consistent code formatting, and not on the actual SQL syntax.  
 SQL being over 50 years has developed its own "dialects" meaning the SQL you write for Azure T-SQL database will be different to Databricks SQL, and other variants include MySQL and SQLite.  
-With this in mind this style guide is here to provide simple guidance, database specific rules will override this.
+With this in mind this style guide is here to provide simple guidance, database specific rules and syntax will override this.
+
+## Things to remember as a consultant
+
+1. You might find yourself working in a pre-existing codebase. In this case, you should follow the existing style guide as much as possible, while maintaining readability and consistency.
+1. You might be working with a team of developers, in this case, you should follow the team's style guide, or all agree on a format that works for everyone.
 
 ## Good Practice Guidelines
+
 1. Always use the schema name when referencing tables.
 1. Always use full keywords, don't use "NOCHECK" use "WITH NOCHECK" instead.
 1. Don't be implicit, be explicit. Don't use "SELECT *" use "SELECT column1, column2" instead.
 1. Always explicitly state the join type, don't use "JOIN" use "INNER JOIN" instead.
 1. Always use and capitalise keywords like "AS" and "ON".
 1. Your driving table should more often than not be the table with the least rows returned.
-1. New lines should be used to make code more readable. 
+1. New lines should be used to make code more readable.
 1. Use tabs(or 4 spaces, but be consistent) to indent code to make it more readable.
 1. commas at the start or end of a line, just be consistent.
-
 
 ```SQL
 --Bad practice
@@ -37,6 +42,7 @@ INNER JOIN dbo.users AS u
 ```
 
 ## Comments
+
 * Comments are not source control
 * Comments should not explain how but they should explain what and why we do something
 * You can comment with either line comments or block comments it's mostly personal preference.
@@ -63,6 +69,7 @@ INNER JOIN dbo.patients AS p
 ```
 
 ## views and cte's
+
 * Views and CTE's should be used to make code more readable and reusable.
 * Views should be used to store complex queries that are used in multiple places.
 * CTE's should be used to make code more readable and to break down complex queries into smaller more manageable parts.
@@ -113,4 +120,3 @@ INNER JOIN dbo.patients AS p
     ON p.patient_id = cu.company_id
 WHERE p.nhs_id = '1234567890'
 ```
-

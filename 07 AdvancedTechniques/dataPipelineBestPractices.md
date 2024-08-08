@@ -21,7 +21,7 @@ Selecting the appropriate tools and tech stack for your data pipeline is an impo
 
 * **Data Characteristics:** Identify the types of data you will be handling (structured, unstructured, or semi-structured), their formats and their volume and velocity.
   
-* **Processing Requirements:** Determine whether your pipeline needs to handle real-time data streams or batch processing. Some tools are optimised for real-time analytics, while others excel in batch processing. See the [Batch](./etlPatterns.md#batch) and [Streaming](./etlPatterns.md#streaming) sections for more details.
+* **Processing Requirements:** Determine whether your pipeline needs to handle real-time data streams or batch processing. Some tools are optimised for real-time analytics, while others excel in batch processing. See the [Batch](04 ArchitecturalPatterns\etlPatterns.md#batch) and [Streaming](04 ArchitecturalPatterns\etlPatterns.md#streaming) sections for more details.
 
 * **Scalability and Flexibility:** Consider the scalability needs of your pipeline. Choose tools that can scale horizontally to handle growing data volumes and are flexible enough to accommodate changes in data sources or processing requirements if the volume/velocity of data is expected to change over time.
 

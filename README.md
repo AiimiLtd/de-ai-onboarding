@@ -36,41 +36,39 @@ Onboarding curriculum:
     * Presentation skills
     * Scrum & Agile working
     * What makes aiimi different
-
-* **03 Roles & responsibilities of a consultant data engineer**: 
     * Understanding client needs
     * Technical expertise
     * Staying up to date with industry developments
     * Leadership
     * Role model
 
-* **04 Our commonly used tech stack and recommended learning pathways**:
+* **03 Our commonly used tech stack and recommended learning pathways**:
     * Languages: PySpark, SQL, 
     * Azure eco-system, Databricks, etc. 
     * Microsoft learn, suggested certifications etc.
     * Version control
 
-* **05 Our commonly used architectural patterns**: 
+* **04 Our commonly used architectural patterns**: 
     * Data lake and Data Lakehouse Medallion architecture
     * Data modeling techniques (Inmon, Kimball, OBT, etc)
     * Data warehousing concepts (ETL, OLAP vs. OLTP), etc
   
-* **06 Case studies**: 
+* **05 Case studies**: 
     * Successful projects
     * Lessons learned, mistakes we’ve made
     * Examples of how different practices operate together e.g. data engineering, software, data science etc.
   
-* **07 Technical playbooks**: 
+* **06 Technical playbooks**: 
     * Code examples
   
-* **08 Advanced techniques**: 
+* **07 Advanced techniques**: 
     * Spark optimisation
     * AI Engineering
     * Software engineering best practices
     * CI/CD
     * Docker
 
-* **09 aiimi style guide**:
+* **08 aiimi style guide**:
     * PySpark
     * SQL
 

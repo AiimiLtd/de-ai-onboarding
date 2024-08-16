@@ -20,15 +20,10 @@ The rest of the curricula is in its suggested order.
 Onboarding curriculum:
 
 * **00 Resources**
-    * Checklists
-    * Use Cases and Suggested Solutions
+    * Useful links
 
-* **01 Orientation**: 
-    * Company values
-    * Structure
-    * Heads of practice
-    * Mentorship
-    * Community of Practice for Data (CoP-Data)
+* **01 Orientation**: [WiP]
+    * Data engineering specific intros 
 
 - **02 Consulting basics**: 
     * Customer focus
@@ -53,22 +48,23 @@ Onboarding curriculum:
     * Data modeling techniques (Inmon, Kimball, OBT, etc)
     * Data warehousing concepts (ETL, OLAP vs. OLTP), etc
   
-* **05 Case studies**: 
+* **05 Case studies**: [WiP]
     * Successful projects
     * Lessons learned, mistakes we’ve made
     * Examples of how different practices operate together e.g. data engineering, software, data science etc.
   
-* **06 Technical playbooks**: 
+* **06 Technical playbooks**: [WiP]
     * Code examples
   
-* **07 Advanced techniques**: 
+* **07 Advanced techniques**: [WiP]
+    * Pipeline best practices
     * Spark optimisation
     * AI Engineering
     * Software engineering best practices
     * CI/CD
     * Docker
 
-* **08 aiimi style guide**:
+* **08 aiimi style guide**: 
     * PySpark
     * SQL
 

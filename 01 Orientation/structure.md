@@ -30,7 +30,7 @@
   * AI-900 - Azure AI Fundamentals
 
 * Fun fact / non technical skill you want to talk about  
-  * I'm goint to start to learn Taekwondo!
+  * I'm going to start to learn Taekwondo!
 
 ## Data Consultant(s)
 

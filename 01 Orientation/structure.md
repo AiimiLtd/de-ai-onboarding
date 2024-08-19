@@ -10,6 +10,28 @@
 
 ## Senior Data Consultant(s)
 
+### Suzanne Wallace
+
+* Technologies you're familiar with  
+  * ADF/Databricks
+  * Azure Stack, Cosmos db
+  * Google Cloud Platform
+  * Amazon Web Services
+  * Open AI
+  * Terraform & IaC
+  * Devops/CICD/git
+    
+* What's your favorite technology to use and why  
+    Databricks - because you can process, transform and do analytics on data in one place. 
+
+* Any DE/AI relevant courses/qualifications  
+  * DP-203 - Azure Data Engineer Associate
+  * AI-102 - Azure AI Engineer Associate
+  * AI-900 - Azure AI Fundamentals
+
+* Fun fact / non technical skill you want to talk about  
+  * I'm goint to start to learn Taekwondo!
+
 ## Data Consultant(s)
 
 ### Jake Pullen

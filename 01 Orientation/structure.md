@@ -81,4 +81,22 @@
 * Fun fact / non technical skill you want to talk about  
   * A covid success story. Before the pandemic I worked in retail. I was furloughed and used the time to learn.
 
+### Jon Bohnel
+
+* Technologies you're familiar with 
+  * Databricks
+  * Azure
+  * GIT
+  * Grafana
+
+* What's your favorite technology to use and why 
+  * Data wise - Databricks, it can already do lots of different jobs but more keeps being added all the time
+  * Outside of data - Selenium WedDriver, it is always pretty cool to watch the output of your code as the driver clicks around a webpage
+
+* Any DE/AI relevant courses/qualifications  
+  * DP-203 - Azure Data Engineer Associate (In Progress)
+
+* Fun fact / non technical skill you want to talk about  
+  * I run a 6-a-side football team in London
+
 ## Data Apprentices(s)

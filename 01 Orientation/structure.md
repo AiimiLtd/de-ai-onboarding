@@ -122,7 +122,7 @@
 
 
 * What's your favorite technology to use and why  
-  * Like most people at AIIMI I will say databricks. There always seems to be cool new features and the notebooks make collabortion really easy across large teams!
+  * Like most people at AIIMI I will say databricks. There always seems to be cool new features and the notebooks make collaboration really easy across large teams!
 
 * Fun fact / non technical skill you want to talk about  
   * I have watched over 3000 films and with all that data I built my own prediction model to calcuate what movies I will enjoy. 

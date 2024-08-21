@@ -2,8 +2,22 @@
 
 ![aiimi structure](../images/aiimiStructure.png)
 
-## Head of Data Engineering
+## Head of Data & AI Engineering
 
+### Josh Swords
+
+* Technologies you're familiar with  
+  * Azure stack
+  * PyTorch, sklearn
+  * Huggingface
+
+* What's your favorite technology to use and why
+  * FastAPI -- I love building things!
+
+* Fun fact / non technical skill you want to talk about  
+  * I love to travel to off-beaten-path destinations
+ 
+  
 ## Business Partner(s)
 
 ## Principal Data Consultant(s)

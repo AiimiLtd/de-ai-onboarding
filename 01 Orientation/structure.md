@@ -73,6 +73,26 @@
 * Fun fact / non technical skill you want to talk about  
   * I'm going to start to learn Taekwondo!
 
+
+### Slater Stewart-Turner
+
+* Technologies you're familiar with  
+  * ADF
+  * Databricks
+  * Snowflake
+  * Azure Stack
+  * AWS
+  * Devops/CICD/git
+    
+* What's your favorite technology to use and why  
+    * Databricks and Flask. Databricks because it's great to be able to do ELT all in one place and Flask for how easy it is to spin up an API if I have an idea!
+
+* Any DE/AI relevant courses/qualifications  
+  * DP-203 - Azure Data Engineer Associate
+
+* Fun fact / non technical skill you want to talk about  
+  * I love gaming and anime! I am also a massive fan of Japanese culture and plan to visit with my family soon!
+
 ## Data Consultant(s)
 
 ### Jake Pullen

@@ -26,24 +26,26 @@ The syntax for creating diagrams in Mermaid is simple and easy to learn. Here ar
 
 ### Flowchart
 
+```
 flowchart TD  
     A[Christmas] -->|Get money| B(Go shopping)  
     B --> C{Let me think}  
     C -->|One| D[Laptop]  
     C -->|Two| E[iPhone]  
     C -->|Three| F[fa:fa-car Car]  
-
-:::Mermaid
+```
+``` mermaid
 flowchart TD
     A[Christmas] -->|Get money| B(Go shopping)
     B --> C{Let me think}
     C -->|One| D[Laptop]
     C -->|Two| E[iPhone]
     C -->|Three| F[fa:fa-car Car]
-:::
+```
 
 ### ERD
 
+```
 erDiagram  
     CAR ||--o{ NAMED-DRIVER : allows  
     CAR {  
@@ -65,8 +67,8 @@ erDiagram
         string driverLicence PK, FK  
     }  
     MANUFACTURER only one to zero or more CAR : makes  
-
-:::Mermaid
+```
+``` mermaid
 erDiagram  
     CAR ||--o{ NAMED-DRIVER : allows  
     CAR {  
@@ -88,5 +90,5 @@ erDiagram
         string driverLicence PK, FK  
     }  
     MANUFACTURER only one to zero or more CAR : makes  
-:::
+```
 

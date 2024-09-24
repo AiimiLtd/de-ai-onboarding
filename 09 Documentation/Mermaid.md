@@ -33,14 +33,14 @@ flowchart TD
     C -->|Two| E[iPhone]  
     C -->|Three| F[fa:fa-car Car]  
 
-```Mermaid
+:::Mermaid
 flowchart TD
     A[Christmas] -->|Get money| B(Go shopping)
     B --> C{Let me think}
     C -->|One| D[Laptop]
     C -->|Two| E[iPhone]
     C -->|Three| F[fa:fa-car Car]
-```
+:::
 
 ### ERD
 
@@ -66,7 +66,7 @@ erDiagram
     }  
     MANUFACTURER only one to zero or more CAR : makes  
 
-```Mermaid
+:::Mermaid
 erDiagram  
     CAR ||--o{ NAMED-DRIVER : allows  
     CAR {  
@@ -88,5 +88,5 @@ erDiagram
         string driverLicence PK, FK  
     }  
     MANUFACTURER only one to zero or more CAR : makes  
-```
+:::
 

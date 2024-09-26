@@ -109,7 +109,7 @@
     Databricks, as it is a very powerful tool that can be used for a wide range of tasks and handles big data very well.
 
 * Any DE/AI relevant courses/qualifications  
-  * DP-203 - Azure Data Engineer Associate(In Progress)
+  * DP-203 - Azure Data Engineer Associate
   * PL-300 - Power BI Data Analyst Associate (Lapsed)
 
 * Fun fact / non technical skill you want to talk about  

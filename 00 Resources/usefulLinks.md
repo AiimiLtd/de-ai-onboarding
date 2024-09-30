@@ -10,6 +10,8 @@ Things that aren't really required, but very useful to have installed on your ma
 
 * [Ninite](https://ninite.com/): A tool for installing multiple applications at once with no bloatware
 
+* [Mermaid.live](https://mermaid.live): A tool for creating diagrams in markdown [more info](../09%20Documentation/Mermaid.md)  
+
 ## Code Editor Extensions (mostly for visual studio code)
 
 * Python [web link](https://marketplace.visualstudio.com/items?itemName=ms-python.python) / [VSCode Link](vscode:extension/ms-python.python): Useful for Python development
